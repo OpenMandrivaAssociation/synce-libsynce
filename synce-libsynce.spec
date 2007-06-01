@@ -1,6 +1,6 @@
 %define name     synce-libsynce
 %define release  %mkrel 1
-%define version 0.9.3
+%define version 0.10.0
 
 %define shortname synce
 %define major 0
@@ -11,7 +11,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 License: MIT
-Group: Development/Libraries
+Group: System/Libraries
 Source: %{name}-%{version}.tar.bz2
 URL: http://synce.sourceforge.net/
 Buildroot: %{_tmppath}/synce-root
@@ -25,8 +25,8 @@ This library is required to compile (at least) the following parts of the
 SynCE project:
 
 %package -n %libname
-Summary: SynCE: Basic library used by applications in the SynCE project.
-Group: Development/Libraries
+Summary: SynCE: Basic library used by applications in the SynCE project
+Group: System/Libraries
 Provides: lib%shortname = %{version}-%{release}
 
 %description -n %libname
@@ -38,8 +38,8 @@ This library is required to compile (at least) the following parts of the
 SynCE project.
 
 %package -n %libname-devel
-Summary: SynCE: Basic library used by applications in the SynCE project.
-Group: Development/Libraries
+Summary: SynCE: Basic library used by applications in the SynCE project
+Group: System/Libraries
 Provides: lib%shortname-devel = %{version}-%{release}
 Requires: %{libname} = %{version}-%{release}
 
@@ -79,5 +79,3 @@ rm -fr %buildroot/%_datadir/doc
 %{_includedir}/*.h
 %{_libdir}/pkgconfig/libsynce.pc
 %{_mandir}/man1/synce.*
-
-

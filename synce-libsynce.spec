@@ -14,7 +14,6 @@ License: MIT
 Group: System/Libraries
 Source: %{name}-%{version}.tar.bz2
 URL: http://synce.sourceforge.net/
-Buildroot: %{_tmppath}/synce-root
 
 %description
 Libsynce is part of the SynCE project:

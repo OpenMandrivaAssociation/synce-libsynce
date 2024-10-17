@@ -13,7 +13,7 @@ Release: %{release}
 License: MIT
 Group: System/Libraries
 Source: %{name}-%{version}.tar.bz2
-URL: http://synce.sourceforge.net/
+URL: https://synce.sourceforge.net/
 Buildroot: %{_tmppath}/synce-root
 
 %description

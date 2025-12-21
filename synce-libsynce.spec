@@ -16,6 +16,11 @@ Source: %{name}-%{version}.tar.bz2
 URL: https://synce.sourceforge.net/
 Buildroot: %{_tmppath}/synce-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Libsynce is part of the SynCE project:
 

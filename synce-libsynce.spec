@@ -1,5 +1,5 @@
 %define name     synce-libsynce
-%define release  %mkrel 4
+%define release 5
 %define version 0.10.0
 
 %define shortname synce
